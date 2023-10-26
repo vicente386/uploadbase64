@@ -1,38 +1,3 @@
-<!--<!DOCTYPE html>
-<html>
-<head>
-    <title>Upload e Visualização de PDFs</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <h2>Upload</h2>
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        <label for="file">Escolha os arquivos PDF para enviar</label>
-        <input type="file" name="files[]" id="file" accept=".pdf" multiple>
-        <input type="submit" value="Enviar Arquivos" name="submit">
-    </form>
-
-    <div id="preview-container"></div>
-
-    <div id="pdfModal" class="modal">
-        <div class="modal-content">
-            <span class="close" id="closeModal">&times;</span>
-            <iframe id="pdfViewer" width="100%" height="500"></iframe>
-        </div>
-    </div>
-	
-	<div class="pdf-gallery">
-		<?php
-			///require_once 'view.php';
-		?>
-	</div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-	<script src="script.js"></script>
-
-</body>
-</html>
--->
 <!DOCTYPE html>
 <html>
 <head>
